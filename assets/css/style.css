@@ -1,3 +1,30 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: hsl(220, 15%, 55%);
+    --card-bg-color: hsl(0, 0%, 100%);
+    --card-title-color: hsl(218, 44%, 22%);
+    --main-font: "Outfit";
+    --font-size-p: 15px;
+}
+
+body{
+    background-color: var(--body-bg-color);
+    font-family: var(--main-font);
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    max-width: 19.5rem;
+    border-radius: 12px;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
